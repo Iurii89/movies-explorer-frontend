@@ -1,0 +1,290 @@
+.signInUpForm {
+    max-width: 396px;
+    margin: 0 auto;
+    padding: 70px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.signInUpForm__logo {
+    width: 38px;
+    height: 38px;
+    margin: 0;
+    padding: 0;
+}
+
+.signInUpForm__name {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.signInUpForm__form {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 413px;
+}
+
+.signInUpForm__label {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #A0A0A0;
+}
+
+.signInUpForm__input {
+    margin: 10px 0 20px;
+    padding: 0 0 0 15px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    border: none;
+    background-color: #F9F9F9;
+    border-radius: 8px;
+    width: 381px;
+    height: 46px;
+}
+
+.signInUpForm__button-submit {
+    margin: 0;
+    width: 100%;
+    height: 45px;
+    background-color: #3456F3;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    border: none;
+}
+
+.signInUpForm__container-exit {
+    margin: 16px 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    justify-content: center;
+}
+
+.signInUpForm__text-exit {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A0A0A0;
+}
+
+.signInUpForm__button-exit {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3456F3;
+    border: none;
+    background-color: inherit;
+}
+
+@media screen and (max-width: 1279px) {
+    .signInUpForm {
+        max-width: 30.94vw;
+        padding: 5.47vw 0;
+        gap: 3.125vw;
+    }
+    
+    .signInUpForm__logo {
+        width: 2.969vw;
+        height: 2.969vw;
+    }
+    
+    .signInUpForm__name {
+        font-size: 1.875vw;
+        line-height: 2.266vw;
+    }
+
+    .signInUpForm__form {
+        height: 32.266vw;
+    }
+    
+    .signInUpForm__label {
+        font-size: 0.78vw;
+        line-height: 0.94vw;
+    }
+    
+    .signInUpForm__input {
+        margin: 0.78vw 0 1.56vw;
+        padding: 0 0 0 1.172vw;
+        font-size: 1.02vw;
+        line-height: 1.25vw;
+        width: 29.766vw;
+        height: 3.594vw;
+    }
+    
+    .signInUpForm__button-submit {
+        height: 3.516vw;
+        font-size: 1.094vw;
+        line-height: 1.328vw;
+    }
+    
+    .signInUpForm__container-exit {
+        margin: 1.25vw 0 0;
+    }
+    
+    .signInUpForm__text-exit {
+        font-size: 1.094vw;
+        line-height: 1.328vw;
+    }
+    
+    .signInUpForm__button-exit {
+        font-size: 0.94vw;
+        line-height: 1.328vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .signInUpForm {
+        max-width: 51.563vw;
+        padding: 30.208vw 0;
+        gap: 5.209vw;
+    }
+    
+    .signInUpForm__logo {
+        width: 4.95vw;
+        height: 4.95vw;
+    }
+    
+    .signInUpForm__name {
+        font-size: 3.125vw;
+        line-height: 3.776vw;
+    }
+
+    .signInUpForm__form {
+        height: 53.776vw;
+    }
+    
+    .signInUpForm__label {
+        font-size: 1.3vw;
+        line-height: 1.56vw;
+    }
+    
+    .signInUpForm__input {
+        margin: 1.3vw 0 2.61vw;
+        padding: 0 0 0 1.953vw;
+        font-size: 1.69vw;
+        line-height: 2.08vw;
+        width: 49.609vw;
+        height: 5.99vw;
+    }
+    
+    .signInUpForm__button-submit {
+        height: 5.859vw;
+        font-size: 1.823vw;
+        line-height: 2.214vw;
+    }
+    
+    .signInUpForm__container-exit {
+        margin: 2.08vw 0 0;
+    }
+    
+    .signInUpForm__text-exit {
+        font-size: 1.823vw;
+        line-height: 2.214vw;
+    }
+    
+    .signInUpForm__button-exit {
+        font-size: 1.823vw;
+        line-height: 2.214vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .signInUpForm {
+        max-width: 81.25vw;
+        padding: 17.5vw 0 9.38vw;
+        gap: 0; 
+    }
+    
+    .signInUpForm__logo {
+        width: 11.875vw;
+        height: 11.875vw;
+        margin: 0 0 15.625vw;
+        align-self: center;
+    }
+    
+    .signInUpForm__name {
+        margin: 0 0 25vw;
+        font-size: 7.5vw;
+        line-height: 9.063vw;
+        align-self: center;
+    }
+    
+    .signInUpForm__form {
+        margin: 0 auto;
+        height: 155.313vw;
+    }
+    
+    .signInUpForm__label {
+        font-size: 3.125vw;
+        line-height: 3.75vw;
+    }
+    
+    .signInUpForm__input {
+        margin: 6.25vw 0 6.25vw;
+        padding: 0 0 0 4.69vw;
+        font-size: 4.0625vw;
+        line-height: 5vw;
+        width: 76.56vw;
+        height: 14.375vw;
+    }
+    
+    .signInUpForm__button-submit {
+        height: 14.06vw;
+        font-size: 3.75vw;
+        line-height: 4.69vw;
+    }
+    
+    .signInUpForm__container-exit {
+        margin: 4.375vw 0 0;
+    }
+    
+    .signInUpForm__text-exit {
+        font-size: 3.75vw;
+        line-height: 4.69vw;
+    }
+    
+    .signInUpForm__button-exit {
+        font-size: 3.75vw;
+        line-height: 4.69vw;
+    }
+    
+}
+
+
+.signInUpForm__button-exit:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.signInUpForm__button-submit:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.signInUpForm__logo:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.signInUpForm__input:last-of-type {
+    margin-bottom: 0;
+}

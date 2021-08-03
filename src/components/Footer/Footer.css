@@ -1,0 +1,148 @@
+.footer {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 79px 70px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer__name {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #A0A0A0;
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 20px;
+    margin: 0 0 20px;
+}
+
+.footer__main-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__year {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.footer__list-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.footer__link {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1279px) {
+    .footer {
+        padding: 6.17vw 5.47vw 1.56vw;
+    }
+    
+    .footer__name {
+        font-size: 1.02vw;
+        line-height: 1.25vw;
+        padding-bottom: 1.56vw;
+        margin-bottom: 1.56vw;
+    }
+    
+    .footer__year {
+        font-size: 1.02vw;
+        line-height: 1.25vw;
+    }
+    
+    .footer__list-links {
+        gap: 1.56vw;
+    }
+    
+    .footer__link {
+        font-size: 1.02vw;
+        line-height: 1.25vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 10.29vw 3.91vw 2.61vw;
+    }
+    
+    .footer__name {
+        font-size: 1.69vw;
+        line-height: 2.08vw;
+        padding-bottom: 2.61vw;
+        margin-bottom: 2.61vw;
+    }
+    
+    .footer__year {
+        font-size: 1.69vw;
+        line-height: 2.08vw;
+    }
+    
+    .footer__list-links {
+        gap: 2.61vw;
+    }
+    
+    .footer__link {
+        font-size: 1.69vw;
+        line-height: 2.08vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        padding: 24.69vw 3.125vw 3.125vw;
+    }
+    
+    .footer__name {
+        font-size: 3.75vw;
+        line-height: 4.69vw;
+        padding-bottom: 6.56vw;
+        margin-bottom:9.38vw;
+    }
+    
+    .footer__main-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer__year {
+        order: 1;
+        margin-top: 9.38vw;
+        font-size: 3.75vw;
+        line-height: 4.69vw;
+    }
+    
+    .footer__list-links {
+        flex-direction: column;
+        gap: 3.75vw;
+    }
+    
+    .footer__link {
+        font-size: 3.75vw;
+        line-height: 4.69vw;
+    }
+}
+
+
+.footer__link:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
