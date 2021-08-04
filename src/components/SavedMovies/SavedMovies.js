@@ -10,6 +10,7 @@ function SavedMovies() {
 
             <Header 
                 landing={false}
+                page = "savedMovies"
             />
             <SearchForm />
             <MoviesCardList 

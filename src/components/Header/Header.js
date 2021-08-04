@@ -2,10 +2,17 @@ import './Header.css';
 import logo from "../../images/logo.png";
 import MenuBurger from '../MenuBurger/MenuBurger';
 import { useHistory } from 'react-router-dom';
+import { React, useState } from 'react';
 
 
-function Header( {landing} ) {
+function Header( {landing, page} ) {
     const history = useHistory();
+    const [isHiddenMenuOpen, setIsHiddenMenuOpen] = useState(false);
+
+    function onIsHiddenMenuOpen() {
+        setIsHiddenMenuOpen(!isHiddenMenuOpen);
+    }
+
     return (
         <>
             <header className={`header ${!landing && "header_background-color_white"}`}>
@@ -28,7 +35,7 @@ function Header( {landing} ) {
                         </div>
                         
                         {!landing && 
-                            <button className="header__hidden-menu" />
+                            <button className="header__hidden-menu" onClick={onIsHiddenMenuOpen}/>
                         }
 
                         {landing && 
@@ -44,7 +51,11 @@ function Header( {landing} ) {
 
             </header>
 
-            <MenuBurger />
+            <MenuBurger
+                openMenu = {isHiddenMenuOpen}
+                closeMenu = {onIsHiddenMenuOpen}
+                page = {page}
+            />
         </>
     )
 }

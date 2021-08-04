@@ -12,6 +12,7 @@ function Movies() {
         <section className="movies">
             <Header 
                 landing= {false}
+                page = "movies"
             />
             <SearchForm />
             <MoviesCardList 

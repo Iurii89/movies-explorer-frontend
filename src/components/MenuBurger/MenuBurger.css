@@ -16,6 +16,7 @@
     visibility: hidden;
     transition: visibility 0s, opacity 0.5s linear;
     overflow: auto;
+    z-index: 2;
 }
 
 .menuBurger__close-button {
@@ -45,8 +46,18 @@
     line-height: 22px;
 }
 
-.menuBurger__account-button_padding-top_621px {
-    margin-top: 621px;
+.menuBurger__account-button {
+    width: 100px;
+    margin: 621px 0 0;
+    padding: 8px 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #F9F9F9;
+    border: none;
 }
 
 .menuBurger::before {
@@ -78,8 +89,8 @@
         line-height: 2.87vw;
     }
     
-    .menuBurger__account-button_padding-top_621px {
-        margin-top: 80.86vw;
+    .menuBurger__account-button {
+        margin: 80.86vw 0 0;
     }
     
     .menuBurger::before {
@@ -110,9 +121,9 @@
         font-size: 5.625vw;
         line-height: 6.88vw;
     }
-    
-    .menuBurger__account-button_padding-top_621px {
-        margin-top: 138.75vw;
+
+    .menuBurger__account-button {
+        margin: 138.75vw 0 0;
     }
     
     .menuBurger::before {
@@ -124,4 +135,29 @@
     .menuBurger{
         height: 95%;
     }
+}
+
+.menuBurger__close-button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.menuBurger__main-button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.menuBurger__account-button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.menuBurger_visabiliti_visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menuBurger__border-bottom-line {
+    padding-bottom: 4px;
+    border-bottom: 2px solid #000;
 }
