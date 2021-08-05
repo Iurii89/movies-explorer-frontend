@@ -141,6 +141,52 @@
     }
 }
 
+@media screen and (max-width: 550px) {
+    .aboutMe {
+        padding: 21.88vw 4.38vw 0;
+        display: flex;
+        flex-direction: column;
+        align-items: inherit;
+    }
+
+    .aboutMe__name {
+        order: -2;
+    }
+    
+    .aboutMe__name-student {
+        margin-top: 12.5vw;
+        font-size: 9.38vw;
+        line-height: 11.25vw;
+    }
+    
+    .aboutMe__profession {
+        margin-top: 6.25vw;
+        font-size: 3.44vw;
+        line-height: 5vw;
+    }
+    
+    .aboutMe__text-descriptions {
+        margin-top: 6.25vw;
+        font-size: 3.44vw;
+        line-height: 5vw;
+    }
+    
+    .aboutMe__social-list {
+        margin-top: 12.5vw;
+        gap: 8.125vw;
+    }
+    
+    .aboutMe__social-item {
+        font-size: 4.375vw;
+        line-height: 5.31vw;
+    }
+
+    .aboutMe__photo {
+        margin-top: 18.75vw;
+        order: -1;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .aboutMe {
         padding: 21.88vw 4.38vw 0;

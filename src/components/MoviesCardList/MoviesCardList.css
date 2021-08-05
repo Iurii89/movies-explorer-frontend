@@ -68,7 +68,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 550px) {
     .moviesCardList {
         padding: 12.5vw 3.125vw 0;
     }

@@ -219,7 +219,7 @@
     
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 550px) {
     .searchForm {
         width: 91.25vw;
         padding: 25,312vw 4.375vw 3.125vw;

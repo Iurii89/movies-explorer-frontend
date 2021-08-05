@@ -148,7 +148,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
     .formProfile {
         margin: 21.875vw auto 12.5vw;
     }
@@ -181,14 +181,11 @@
     }
     
     .formProfile__button-submit {
-        margin: 118.44vw 0 0;
-        height: 14.06vw;
-        font-size: 3.75vw;
-        line-height: 4.69vw;
+        margin: 70.44vw 0 0;
     }
-    
+
     .formProfile__button-edit {
-        margin: 118.44vw 0 0;
+        margin: 70.44vw 0 0;
         font-size: 3.75vw;
         line-height: 4.69vw;
     }
@@ -197,6 +194,13 @@
         margin: 16px 0 0;
         font-size: 3.75vw;
         line-height: 4.69vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+    .formProfile__button-edit {
+        margin: 118.44vw 0 0;
     }
 }
 

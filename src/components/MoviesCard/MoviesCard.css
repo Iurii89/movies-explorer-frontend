@@ -129,7 +129,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 550px) {
     .moviesCard {
         width: 93.75vw;
         height: 73.75vw;

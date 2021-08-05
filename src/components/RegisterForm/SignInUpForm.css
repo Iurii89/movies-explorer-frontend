@@ -207,7 +207,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 550px) {
     .signInUpForm {
         max-width: 81.25vw;
         padding: 17.5vw 0 9.38vw;

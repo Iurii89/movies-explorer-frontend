@@ -104,7 +104,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 550px) {
     .menuBurger{
         padding: 4.2vw 4.2vw 14.38vw;
         width: 93.75vw;
@@ -123,11 +123,24 @@
     }
 
     .menuBurger__account-button {
+        width: 27.272vw;
         margin: 138.75vw 0 0;
+        margin: 138.75vw 0 0;
+        font-size: 4.375vw;
+        line-height: 5vw;
+        padding: 2.5vw;
     }
     
     .menuBurger::before {
         right: 1000px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+
+    .menuBurger__account-button {
+        margin: 138.75vw 0 0;
     }
 }
 

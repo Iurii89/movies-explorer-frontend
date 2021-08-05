@@ -106,7 +106,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 550px) {
     .footer {
         padding: 24.69vw 3.125vw 3.125vw;
     }
