@@ -1,0 +1,17 @@
+@import url(../../vendor/normalize/normalize.css);
+@import url(../../vendor/fonts/inter.css);
+
+.app {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    overflow: auto;
+    padding: 0;
+    background-color: #ffffff;
+}
