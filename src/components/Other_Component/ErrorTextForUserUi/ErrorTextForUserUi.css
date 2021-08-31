@@ -1,0 +1,8 @@
+.errorTextForUserUi {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+    color: red;
+    padding-bottom: 10px;
+}

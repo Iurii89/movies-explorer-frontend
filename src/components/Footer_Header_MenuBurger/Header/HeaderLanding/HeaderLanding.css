@@ -1,0 +1,54 @@
+.headerLanding__landing-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.headerLanding__registr-button {
+    color: #fff;
+    border: none;
+    font: inherit;
+    background: inherit;
+    font-size: 12px;
+    line-height: 16px;
+    align-items: center;
+    text-align: right;
+}
+
+.headerLanding__signin-button {
+    color: #000;
+    font-size: 12px;
+    line-height: 16px;
+    align-items: center;
+    background: #2BE080;
+    border-radius: 3px;
+    width: 76px;
+    height: 32px;
+    border: none;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 320px) {
+    .headerLanding__registr-button {
+        font-size: 10px;
+    }
+
+    .headerLanding__signin-button {
+        font-size: 10px;
+        width: 54px;
+        height: 26px;
+        border: none;
+        margin-left: 14px;
+    }
+
+}
+
+
+.headerLanding__registr-button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.headerLanding__signin-button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
