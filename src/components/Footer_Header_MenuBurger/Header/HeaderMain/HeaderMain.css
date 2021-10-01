@@ -1,0 +1,107 @@
+.headerMain__main-buttons {
+    margin: 0;
+    padding: 0 0 0 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.headerMain__film-button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.headerMain__films {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: row;
+    gap: 16px;
+}
+
+.headerMain__seva-film-button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.headerMain__accaunt-button {
+    width: 100px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #F9F9F9;
+    border: none;
+}
+
+.headerMain__hidden-menu {
+    display: none;
+    align-self: center;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    background-image: url(../../../../images/hidden-menu.png);  
+}
+
+@media screen and (max-width: 768px) {
+
+    .headerMain__main-buttons {
+        display: none;
+    }
+
+    .headerMain__hidden-menu {
+        width: 44px;
+        height: 44px;
+        display: inline;  
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .headerMain__hidden-menu {
+        width: 40px;
+        height: 43px; 
+    }
+}
+
+.headerMain__film-button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.headerMain__seva-film-button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.headerMain__accaunt-button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.headerMain__hidden-menu:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
